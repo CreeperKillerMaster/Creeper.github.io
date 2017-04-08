@@ -57,3 +57,12 @@ git rm -r
 git rm -q
 git rm q - 
 git rm personal-website
+cd
+git init
+git remote add origin https://github.com/CreeperKillerMaster/New-2.git
+git remote -v
+git add .
+git commit -m "Save my work"
+git push -u origin master
+cd
+git remote -v
